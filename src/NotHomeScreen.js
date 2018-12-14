@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import { Container, Content, Card, CardItem, Body, Text, Button } from 'native-base';
 
 export default class NotHomeScreen extends Component {
+
+    static navigationOptions = {
+        title: 'Not Home',
+      };
+
     render() {
         return (
             <Container>

@@ -8,7 +8,16 @@ const AppNavigator = createStackNavigator(
         NotHome: NotHomeScreen
     },
     {
-        initialRouteName: "Home"
+        initialRouteName: "Home",
+        defaultNavigationOptions: {
+            headerStyle: {
+                backgroundColor: '#0091ea',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+                fontWeight: 'bold',
+            }
+        }
     }
 );
 
